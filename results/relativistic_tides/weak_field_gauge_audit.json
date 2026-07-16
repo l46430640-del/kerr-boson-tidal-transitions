@@ -1,0 +1,47 @@
+[
+  {
+    "alpha": 0.05,
+    "hydrogenic_abs": 71999.99999999964,
+    "irg_real": -0.00012443531859440444,
+    "irg_imag": -71487.78006924789,
+    "irg_abs": 71487.78006924789,
+    "rw_real": -0.00012444536824754681,
+    "rw_imag": -71487.78006923228,
+    "rw_abs": 71487.78006923228,
+    "irg_over_hydrogenic": 0.9928858342951147,
+    "leading_alpha2_coefficient": 2.8456662819541285,
+    "irg_rw_relative_residual": 2.5974735988994277e-13,
+    "gauge_pass": true,
+    "weak_field_pass": true
+  },
+  {
+    "alpha": 0.075,
+    "hydrogenic_abs": 21333.33333333322,
+    "irg_real": -0.0006639920465225142,
+    "irg_imag": -20991.23449129426,
+    "irg_abs": 20991.23449129427,
+    "rw_real": -0.0006639801112894778,
+    "rw_imag": -20991.234491274423,
+    "rw_abs": 20991.234491274434,
+    "irg_over_hydrogenic": 0.9839641167794242,
+    "leading_alpha2_coefficient": 2.8508236836579215,
+    "irg_rw_relative_residual": 1.1029127935779765e-12,
+    "gauge_pass": true,
+    "weak_field_pass": false
+  },
+  {
+    "alpha": 0.1,
+    "hydrogenic_abs": 8999.999999999958,
+    "irg_real": -0.0024817226299187205,
+    "irg_imag": -8742.74732189101,
+    "irg_abs": 8742.747321891364,
+    "rw_real": -0.002481725617903253,
+    "rw_imag": -8742.74732187489,
+    "rw_abs": 8742.74732187524,
+    "irg_over_hydrogenic": 0.9714163690990449,
+    "leading_alpha2_coefficient": 2.8583630900955055,
+    "irg_rw_relative_residual": 1.875412842561573e-12,
+    "gauge_pass": true,
+    "weak_field_pass": null
+  }
+]

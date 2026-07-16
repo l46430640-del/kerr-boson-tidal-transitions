@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+tmp/
+
+# Regenerable numerical caches and exploratory runs are kept locally.
+results/**/cache/
+results/relativistic_tides/cache/
+results/relativistic_tides/certification/smoke/
+results/relativistic_tides/certification/certification_cache.json
+results/relativistic_tides/*.log
+results/relativistic_tides/v2/certification_smoke*/
+results/relativistic_tides/v2/a79e87a9cfcd494e30344d90347bd62714eda64b93b06db4d161fca4c2ef04fe/

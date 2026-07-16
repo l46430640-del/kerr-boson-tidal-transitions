@@ -1,0 +1,5 @@
+alpha,relative_correction,sigma_digitization,source,figure,curve,x_axis_calibration,y_axis_calibration
+0.05,0.00152,0.00200,arXiv:2309.10021,Hydroplot.pdf Fig. 2,relativistic QBS-QBS 211 to 31-1,linear alpha ticks,linear relative-difference ticks
+0.10,0.01726,0.00200,arXiv:2309.10021,Hydroplot.pdf Fig. 2,relativistic QBS-QBS 211 to 31-1,linear alpha ticks,linear relative-difference ticks
+0.15,0.04458,0.00200,arXiv:2309.10021,Hydroplot.pdf Fig. 2,relativistic QBS-QBS 211 to 31-1,linear alpha ticks,linear relative-difference ticks
+0.20,0.08687,0.00200,arXiv:2309.10021,Hydroplot.pdf Fig. 2,relativistic QBS-QBS 211 to 31-1,linear alpha ticks,linear relative-difference ticks

@@ -1,0 +1,62 @@
+{
+  "maximum_absolute_difference": 0.0038783537218201568,
+  "rows": [
+    {
+      "absolute_difference": 0.003730966711579763,
+      "acceptance_threshold": 0.02,
+      "alpha": 0.05,
+      "benchmark_channel": "21+1->31-1",
+      "gauge_channel": "21+1->21-1",
+      "gauge_residual": 7.501586867973549e-10,
+      "hydrogenic_kernel_abs": 61152.95231999947,
+      "passed": true,
+      "reference_correction": 0.00152,
+      "relative_correction": 0.005250966711579763,
+      "schwarzschild_newtonian_kernel_abs": 60831.84020305233,
+      "sigma_digitization": 0.002
+    },
+    {
+      "absolute_difference": 0.0038783537218201568,
+      "acceptance_threshold": 0.02,
+      "alpha": 0.1,
+      "benchmark_channel": "21+1->31-1",
+      "gauge_channel": "21+1->21-1",
+      "gauge_residual": 2.815319788513026e-09,
+      "hydrogenic_kernel_abs": 7644.119039999939,
+      "passed": true,
+      "reference_correction": 0.01726,
+      "relative_correction": 0.021138353721820158,
+      "schwarzschild_newtonian_kernel_abs": 7482.53494784072,
+      "sigma_digitization": 0.002
+    },
+    {
+      "absolute_difference": 0.0035342108826854138,
+      "acceptance_threshold": 0.02,
+      "alpha": 0.15,
+      "benchmark_channel": "21+1->31-1",
+      "gauge_channel": "21+1->21-1",
+      "gauge_residual": 8.96585464357464e-11,
+      "hydrogenic_kernel_abs": 2264.9241599999805,
+      "passed": true,
+      "reference_correction": 0.04458,
+      "relative_correction": 0.048114210882685415,
+      "schwarzschild_newtonian_kernel_abs": 2155.9491213324523,
+      "sigma_digitization": 0.002
+    },
+    {
+      "absolute_difference": 0.0002761051053487007,
+      "acceptance_threshold": 0.02,
+      "alpha": 0.2,
+      "benchmark_channel": "21+1->31-1",
+      "gauge_channel": "21+1->21-1",
+      "gauge_residual": 1.002747423434621e-09,
+      "hydrogenic_kernel_abs": 955.5148799999929,
+      "passed": true,
+      "reference_correction": 0.08687,
+      "relative_correction": 0.0871461051053487,
+      "schwarzschild_newtonian_kernel_abs": 872.2454798377888,
+      "sigma_digitization": 0.002
+    }
+  ],
+  "status": "ok"
+}

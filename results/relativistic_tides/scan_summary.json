@@ -1,0 +1,13 @@
+{
+  "quick": false,
+  "config_sha256": "f4fb96bb57f55e7d5d48d62411f41129835fbaed3753aa633460e244b358cd78",
+  "points": 75,
+  "status_counts": {
+    "mode_not_converged": 19,
+    "ok": 24,
+    "tidal_expansion_invalid": 32
+  },
+  "gauge_audits_passed": 0,
+  "publication_gate": "pre_atlas_certified",
+  "local_gauge_audit_note": "legacy pointwise diagnostics are not the compact-support pilot certificate"
+}

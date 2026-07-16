@@ -1,0 +1,10 @@
+{
+  "alpha_points": 81,
+  "chi_points": 181,
+  "status_counts": {
+    "not_superradiant": 5183,
+    "no_root": 1971,
+    "root_q_gt_1": 5041,
+    "physical_root": 2466
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "alphas": [
+    0.1,
+    0.125,
+    0.15,
+    0.175,
+    0.2,
+    0.22499999999999998,
+    0.25,
+    0.275,
+    0.3,
+    0.32499999999999996,
+    0.35,
+    0.375,
+    0.4,
+    0.42499999999999993,
+    0.45
+  ],
+  "channels": [
+    [
+      "21+1",
+      "21-1"
+    ],
+    [
+      "32+2",
+      "32+0"
+    ],
+    [
+      "32+2",
+      "30+0"
+    ],
+    [
+      "43+3",
+      "43+1"
+    ],
+    [
+      "43+3",
+      "41+1"
+    ]
+  ],
+  "config_sha256": "dcfde058e13da135d195c11dd5e22b1b27aa2a02b2117274c02454279f0bb121",
+  "expected_counts": {
+    "operator_pilots": 3,
+    "saturation": 45,
+    "schwarzschild_benchmark": 4,
+    "unique_modes": 120,
+    "ward_pilots": 3,
+    "weak_field": 6
+  },
+  "q_values": [
+    0.0001,
+    0.0001333521432163324,
+    0.00017782794100389227,
+    0.00023713737056616554,
+    0.00031622776601683794,
+    0.00042169650342858224,
+    0.0005623413251903491,
+    0.0007498942093324559,
+    0.001,
+    0.001333521432163324,
+    0.0017782794100389228,
+    0.0023713737056616554,
+    0.0031622776601683794,
+    0.004216965034285823,
+    0.005623413251903491,
+    0.007498942093324558,
+    0.01,
+    0.01333521432163324,
+    0.01778279410038923,
+    0.023713737056616554,
+    0.03162277660168379,
+    0.042169650342858224,
+    0.05623413251903491,
+    0.07498942093324558,
+    0.1,
+    0.1333521432163324,
+    0.1778279410038923,
+    0.23713737056616552,
+    0.31622776601683794,
+    0.4216965034285822,
+    0.5623413251903491,
+    0.7498942093324559,
+    1.0
+  ],
+  "schema_version": 2,
+  "settings": {
+    "adiabatic_frequency_limit": 0.01,
+    "angular_nodes": 72,
+    "horizon_cutoffs": [
+      0.0001
+    ],
+    "max_subdivisions": 250,
+    "mode": {
+      "adaptive_truncations": [
+        400,
+        600,
+        800,
+        1200,
+        1600
+      ],
+      "angular_lmax": 14,
+      "angular_nodes": 72,
+      "counterterm_order": 3,
+      "horizon_cutoff": 0.0001,
+      "outer_decay_lengths": 28.0,
+      "radial_rtol": 1e-08,
+      "residual_tolerance": 1e-10,
+      "series_terms": 400,
+      "truncation": 400
+    },
+    "radial_atol": 1e-10,
+    "radial_nodes": 80,
+    "radial_rtol": 3e-06,
+    "tidal_radius_limit": 0.1
+  },
+  "thresholds": {
+    "angular_residual": 1e-08,
+    "bilinear_norm_error": 1e-05,
+    "branch_chi_agreement": 1e-10,
+    "cf_residual": 1e-10,
+    "maximum_selected_truncation": 1200,
+    "operator_forms": 1e-10,
+    "peak_memory_bytes": 4294967296,
+    "radial_ode_residual": 1e-06,
+    "radial_residual": 1e-08,
+    "saturation_residual": 1e-12,
+    "ward": 1e-08
+  }
+}

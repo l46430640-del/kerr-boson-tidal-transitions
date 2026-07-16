@@ -1,0 +1,60 @@
+{
+  "fit": {
+    "c0": 0.9999991733613532,
+    "c2": -2.8409499172133135,
+    "c4": -1.7325218760929773,
+    "maximum_fit_residual": 1.5534214070633823e-07,
+    "maximum_gauge_residual": 7.216413491246794e-09,
+    "status": "ok"
+  },
+  "rows": [
+    {
+      "alpha": 0.03,
+      "gauge_residual": 7.216413491246794e-09,
+      "hydrogenic_kernel_abs": 333333.3333333322,
+      "irg_kernel_abs": 332480.3378214545,
+      "kernel_ratio": 0.9974410134643669,
+      "rw_kernel_abs": 332480.3378210954
+    },
+    {
+      "alpha": 0.04,
+      "gauge_residual": 4.134728823051127e-09,
+      "hydrogenic_kernel_abs": 140624.99999999962,
+      "irg_kernel_abs": 139985.04513133437,
+      "kernel_ratio": 0.9954492098228248,
+      "rw_kernel_abs": 139985.04512976127
+    },
+    {
+      "alpha": 0.05,
+      "gauge_residual": 7.501586867973549e-10,
+      "hydrogenic_kernel_abs": 71999.99999999964,
+      "irg_kernel_abs": 71487.78201298337,
+      "kernel_ratio": 0.9928858612914407,
+      "rw_kernel_abs": 71487.78201185385
+    },
+    {
+      "alpha": 0.06,
+      "gauge_residual": 1.612852166623172e-09,
+      "hydrogenic_kernel_abs": 41666.666666666395,
+      "irg_kernel_abs": 41239.54970458996,
+      "kernel_ratio": 0.9897491929101655,
+      "rw_kernel_abs": 41239.54970396023
+    },
+    {
+      "alpha": 0.075,
+      "gauge_residual": 3.2319801682607944e-09,
+      "hydrogenic_kernel_abs": 21333.33333333322,
+      "irg_kernel_abs": 20991.235570009132,
+      "kernel_ratio": 0.9839641673441833,
+      "rw_kernel_abs": 20991.235569837394
+    },
+    {
+      "alpha": 0.1,
+      "gauge_residual": 2.815319788513026e-09,
+      "hydrogenic_kernel_abs": 8999.999999999958,
+      "irg_kernel_abs": 8742.747536856725,
+      "kernel_ratio": 0.971416392984085,
+      "rw_kernel_abs": 8742.747536913123
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 3,
+  "status": "kernel_validation_passed",
+  "high_order_tide_failures": 0,
+  "independent_kernel_failures": 0,
+  "code_sha256": "22a8cd8178f0b88c29ebbc8664f4d7a78b915d18377ad74ff0992131ae73973e",
+  "config_sha256": "f0751f2451a58ef96f6477dbad97fbf12edfd00e74c2a2d2906b75e5018bfd7c",
+  "dependency_sha256": "db57a947e9324f0bfe717a42d4836bf1fb7572c7d1073f0ba9c5767412bc8686",
+  "dependencies": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.15.1",
+    "sympy": "1.13.1"
+  },
+  "run_fingerprint": "7d5aa3f0dd551a15508264f2b69caaebebfd6e792f57add53c815c7698aad5eb",
+  "input_v2_run_fingerprint": "27785654437e5ab86f4c8a1ca3e833a2ece78373c000930f77b85ba671471720",
+  "input_v2_dataset_sha256": "20d7abe357f5f5ac72d15ef65d4041e547640531ce323c1afca81569ceb629c7",
+  "counts": {
+    "significant_points": 8,
+    "multipole_kernels": 72,
+    "exact_tide_qscan": 4112,
+    "independent_kernels": 5
+  },
+  "validation_gate": {
+    "potential_reconstruction_residual": 4.425871625832556e-16,
+    "maximum_odd_relative_amplitude": 2.8359126325984114e-16,
+    "maximum_l8_l10_relative_difference": 0.0,
+    "maximum_gauss_quad_difference": 9.74470756984545e-10,
+    "maximum_independent_amplitude_difference": 3.2356810949100366e-06,
+    "maximum_independent_phase_difference": 2.525144509835682e-09,
+    "ten_percent_effect_in_strict_domain": [
+      "a0.200000_21+1_21-1",
+      "a0.325000_32+2_32+0",
+      "a0.350000_32+2_32+0",
+      "a0.375000_32+2_32+0"
+    ],
+    "effect_exceeds_three_sigma_proxy": [
+      "a0.200000_21+1_21-1",
+      "a0.325000_32+2_32+0",
+      "a0.350000_32+2_32+0",
+      "a0.375000_32+2_32+0"
+    ],
+    "alpha035_multipole_shift": 0.0006635867065884433,
+    "depletion_extrema": {
+      "newtonian": 0.13700131412929273,
+      "1pn": 0.13699994444361496
+    },
+    "depletion_abstract_gate": true,
+    "checks": {
+      "potential_reconstruction": true,
+      "odd_multipoles": true,
+      "l8_l10": true,
+      "gauss_quad": true,
+      "schwarzschild_control": true,
+      "strict_domain_effect": true,
+      "three_sigma_proxy": true,
+      "alpha035_multipole": true
+    }
+  },
+  "schwarzschild_control": {
+    "alpha": "0.15",
+    "benchmark_channel": "21+1->31-1",
+    "gauge_channel": "21+1->21-1",
+    "hydrogenic_kernel_abs": "2264.9241599999805",
+    "schwarzschild_newtonian_kernel_abs": "2155.9491213324523",
+    "relative_correction": "0.048114210882685415",
+    "gauge_residual": "8.96585464357464e-11",
+    "reference_correction": "0.04458",
+    "sigma_digitization": "0.002",
+    "absolute_difference": "0.0035342108826854138",
+    "acceptance_threshold": "0.02",
+    "passed": "True",
+    "status": "ok"
+  },
+  "failures": [],
+  "peak_resident_memory_bytes": 336248832,
+  "wall_time_seconds": 552.0648446000005
+}

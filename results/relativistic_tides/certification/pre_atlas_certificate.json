@@ -1,0 +1,111 @@
+{
+  "checks": {
+    "convergence_passed": true,
+    "operator_form_maximum": 9.207139195758126e-11,
+    "schwarzschild_benchmark": {
+      "maximum_absolute_difference": 0.0038783733408417863,
+      "rows": [],
+      "status": "ok"
+    },
+    "ward": [
+      {
+        "alpha": 0.1,
+        "chi": 0.3841668178968236,
+        "final": "21-1",
+        "initial": "21+1",
+        "maximum_invariance_residual": 0.0,
+        "maximum_linearity_residual": 3.6050175900998486e-16,
+        "maximum_pure_gauge_residual": 0.0,
+        "off_resonance_ratio": 5.1440162431680694e+296,
+        "physical_kernel_abs": 8578.918385926054,
+        "physical_kernel_imag": -8578.881018313352,
+        "physical_kernel_real": 25.32086102301853,
+        "status": "ok"
+      },
+      {
+        "alpha": 0.25,
+        "chi": 0.46911119480762914,
+        "final": "30+0",
+        "initial": "32+2",
+        "maximum_invariance_residual": 0.0,
+        "maximum_linearity_residual": 2.247209615451987e-16,
+        "maximum_pure_gauge_residual": 0.0,
+        "off_resonance_ratio": 7.052752984454608e+298,
+        "physical_kernel_abs": 2123.9607139973227,
+        "physical_kernel_imag": 2123.6915340689015,
+        "physical_kernel_real": 33.81394280606921,
+        "status": "ok"
+      },
+      {
+        "alpha": 0.45,
+        "chi": 0.5485222024975507,
+        "final": "41+1",
+        "initial": "43+3",
+        "maximum_invariance_residual": 0.0,
+        "maximum_linearity_residual": 3.732461992740878e-16,
+        "maximum_pure_gauge_residual": 0.0,
+        "off_resonance_ratio": 1.2553056521987707e+300,
+        "physical_kernel_abs": 671.1188795933557,
+        "physical_kernel_imag": -651.5242069610781,
+        "physical_kernel_real": 160.98682644980403,
+        "status": "ok"
+      }
+    ],
+    "weak_field": {
+      "c0": 0.9999991715302026,
+      "c2": -2.84095005324978,
+      "c4": -1.7324962443031553,
+      "maximum_fit_residual": 1.5561926636209478e-07,
+      "maximum_gauge_residual": 7.193957039543932e-09,
+      "status": "ok"
+    }
+  },
+  "code_sha256": "7d9afe1fcb61bca8e0b6e3847162ed5c23236bfa07f83eb951ba99099fd77398",
+  "config_sha256": "f4fb96bb57f55e7d5d48d62411f41129835fbaed3753aa633460e244b358cd78",
+  "environment": {
+    "numpy": "1.26.4",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "python": "3.11.7",
+    "scipy": "1.16.3",
+    "sympy": "1.13.1"
+  },
+  "failures": [],
+  "last_resume_wall_time_seconds": 1903.9245240999999,
+  "peak_memory_limit_bytes": 4294967296,
+  "peak_python_heap_bytes": 14971884,
+  "peak_resident_memory_bytes": 142401536,
+  "reference_settings": {
+    "adiabatic_frequency_limit": 0.01,
+    "angular_nodes": 96,
+    "horizon_cutoffs": [
+      3e-05
+    ],
+    "max_subdivisions": 250,
+    "mode": {
+      "angular_lmax": 14,
+      "angular_nodes": 96,
+      "counterterm_order": 4,
+      "horizon_cutoff": 3e-05,
+      "outer_decay_lengths": 28.0,
+      "radial_rtol": 1e-08,
+      "residual_tolerance": 1e-10,
+      "series_terms": 400,
+      "truncation": 400
+    },
+    "radial_atol": 1e-10,
+    "radial_nodes": 80,
+    "radial_rtol": 3e-06,
+    "tidal_radius_limit": 0.1
+  },
+  "schema_version": 1,
+  "status": "pre_atlas_certified",
+  "thresholds": {
+    "cf_residual": 1e-10,
+    "kernel_N": 0.0003,
+    "kernel_horizon_counterterm": 1e-05,
+    "kernel_radial_angular": 0.0001,
+    "operator_forms": 1e-10,
+    "ward": 1e-08
+  },
+  "wall_time_seconds": 12381.469113099996
+}

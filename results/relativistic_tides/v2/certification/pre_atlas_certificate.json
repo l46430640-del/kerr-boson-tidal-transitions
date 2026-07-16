@@ -1,0 +1,67 @@
+{
+  "certified_data_sha256": "05662f89fefdf1abfe9d5fa0c9f32722ac55dabb8cadca42626f192d2eaa5a6b",
+  "checks": {
+    "schwarzschild_benchmark": {
+      "maximum_absolute_difference": 0.0038783537218201568,
+      "rows": [],
+      "status": "ok"
+    },
+    "weak_field": {
+      "c0": 0.9999991733613532,
+      "c2": -2.8409499172133135,
+      "c4": -1.7325218760929773,
+      "maximum_fit_residual": 1.5534214070633823e-07,
+      "maximum_gauge_residual": 7.216413491246794e-09,
+      "status": "ok"
+    }
+  },
+  "code_sha256": "853b1cbe3ce31b684528636d57635a1949411607f1e301bd18f7295957a2fe8d",
+  "config_sha256": "dcfde058e13da135d195c11dd5e22b1b27aa2a02b2117274c02454279f0bb121",
+  "counts": {
+    "operator_pilots": {
+      "completed": 3,
+      "expected": 3,
+      "passed": 3
+    },
+    "saturation": {
+      "completed": 45,
+      "expected": 45,
+      "passed": 45
+    },
+    "schwarzschild_benchmark": {
+      "completed": 4,
+      "expected": 4,
+      "passed": 4
+    },
+    "unique_modes": {
+      "completed": 120,
+      "expected": 120,
+      "passed": 120
+    },
+    "ward_pilots": {
+      "completed": 3,
+      "expected": 3,
+      "passed": 3
+    },
+    "weak_field": {
+      "completed": 6,
+      "expected": 6,
+      "passed": 6
+    }
+  },
+  "dependency_sha256": "db57a947e9324f0bfe717a42d4836bf1fb7572c7d1073f0ba9c5767412bc8686",
+  "environment": {
+    "numpy": "1.26.4",
+    "platform": "Windows-10-10.0.26100-SP0",
+    "python": "3.11.7",
+    "scipy": "1.15.1",
+    "sympy": "1.13.1"
+  },
+  "failures": [],
+  "implementation_failures": 0,
+  "peak_resident_memory_bytes": 435204096,
+  "run_fingerprint": "27785654437e5ab86f4c8a1ca3e833a2ece78373c000930f77b85ba671471720",
+  "schema_version": 2,
+  "status": "pre_atlas_certified",
+  "wall_time_seconds": 976.5201202999997
+}

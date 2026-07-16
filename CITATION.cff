@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its numerical data, please cite the archived release."
+title: "Kerr Boson-Cloud Tidal Transitions: Code and Numerical Data"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Yi-kun"
+    email: "liyikun@xao.ac.cn"
+    affiliation: "Xinjiang Astronomical Observatory, Chinese Academy of Sciences"
+version: 1.0.0
+date-released: 2026-07-16
+repository-code: "https://github.com/l46430640-del/kerr-boson-tidal-transitions"
+url: "https://github.com/l46430640-del/kerr-boson-tidal-transitions"
+license: MIT
+abstract: >-
+  Python implementations and validated numerical data for relativistic tidal
+  transitions between scalar quasibound states of saturated Kerr boson clouds.
+keywords:
+  - Kerr black holes
+  - boson clouds
+  - tidal transitions
+  - quasibound states
+  - black-hole superradiance

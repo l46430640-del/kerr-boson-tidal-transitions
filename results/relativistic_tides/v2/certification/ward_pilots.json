@@ -1,0 +1,47 @@
+[
+  {
+    "alpha": 0.1,
+    "chi": 0.38416681789681867,
+    "final": "21-1",
+    "initial": "21+1",
+    "maximum_invariance_residual": 2.542714579395283e-10,
+    "maximum_linearity_residual": 3.8753748820189725e-25,
+    "maximum_pure_gauge_residual": 2.528156813658204e-10,
+    "off_resonance_ratio": 1996650.9142958655,
+    "physical_kernel_abs": 8742.720103640839,
+    "physical_kernel_imag": -8742.720076242224,
+    "physical_kernel_real": 0.6921537830639533,
+    "point_id": "a0.100000_21+1_21-1",
+    "status": "ok"
+  },
+  {
+    "alpha": 0.25,
+    "chi": 0.4691111948076628,
+    "final": "30+0",
+    "initial": "32+2",
+    "maximum_invariance_residual": 1.6034572301187398e-10,
+    "maximum_linearity_residual": 8.068026723662354e-19,
+    "maximum_pure_gauge_residual": 1.591933255223998e-10,
+    "off_resonance_ratio": 772947253.0747783,
+    "physical_kernel_abs": 2201.724040142868,
+    "physical_kernel_imag": 2196.5043150212705,
+    "physical_kernel_real": 151.51746775858243,
+    "point_id": "a0.250000_32+2_30+0",
+    "status": "ok"
+  },
+  {
+    "alpha": 0.45,
+    "chi": 0.5474328233088946,
+    "final": "41+1",
+    "initial": "43+3",
+    "maximum_invariance_residual": 1.251999103958168e-09,
+    "maximum_linearity_residual": 1.1523181105312706e-16,
+    "maximum_pure_gauge_residual": 1.2520483301831143e-09,
+    "off_resonance_ratio": 62287727.053294435,
+    "physical_kernel_abs": 1055.8734456891168,
+    "physical_kernel_imag": 1051.4597641824978,
+    "physical_kernel_real": -96.44219831948394,
+    "point_id": "a0.450000_43+3_41+1",
+    "status": "ok"
+  }
+]
