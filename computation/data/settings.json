@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "adiabatic_frequency_limit": 0.01,
+    "angular_nodes": 72,
+    "horizon_cutoffs": [
+      0.0001
+    ],
+    "max_subdivisions": 250,
+    "mode": {
+      "adaptive_truncations": [
+        400,
+        600,
+        800,
+        1200,
+        1600
+      ],
+      "angular_lmax": 14,
+      "angular_nodes": 72,
+      "counterterm_order": 3,
+      "horizon_cutoff": 0.0001,
+      "outer_decay_lengths": 28.0,
+      "radial_rtol": 1e-08,
+      "residual_tolerance": 1e-10,
+      "series_terms": 400,
+      "truncation": 400
+    },
+    "radial_atol": 1e-10,
+    "radial_nodes": 80,
+    "radial_rtol": 3e-06,
+    "tidal_radius_limit": 0.1
+  }
+}

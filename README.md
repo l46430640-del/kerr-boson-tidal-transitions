@@ -6,6 +6,30 @@ It includes hydrogenic reference calculations, non-Hermitian two-level
 dynamics, Kerr mode solvers, covariant tidal kernels, multipole corrections,
 and convergence checks.
 
+## Current calculation
+
+The self-contained [computation](computation/README.md) directory contains
+the current calculation and numerical data. It includes the Hamiltonian
+projection, both directed complex couplings, matched electric and magnetic
+tidal fields, and finite-interval dissipative crossings.
+
+```sh
+cd computation
+python -m pip install -r requirements-lock.txt
+python reproduce.py --components --multipoles --crossings --tests
+```
+
+The [v0.2.0 release](https://github.com/l46430640-del/kerr-boson-tidal-transitions/releases/tag/v0.2.0)
+provides the same numerical distribution as a standalone ZIP. Its manifest
+records the hashes of all distributed inputs and source files. The
+computation README specifies the phase conventions and additional commands.
+
+## Earlier implementation
+
+The top-level `src/`, `scripts/`, `tests/` and `results/` directories below
+retain the earlier implementation. Use `computation/` for the current
+Hamiltonian convention and matched-tide results.
+
 ## Repository layout
 
 - `src/boson_ep/`: reusable numerical and symbolic routines.

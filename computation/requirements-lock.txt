@@ -1,0 +1,7 @@
+# Environment used for the reconstruction on Python 3.11.7.
+numpy==1.26.4
+scipy==1.16.3
+sympy==1.13.1
+matplotlib==3.8.0
+PyMuPDF==1.27.2.3
+Pillow==10.2.0

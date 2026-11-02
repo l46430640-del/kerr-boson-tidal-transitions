@@ -1,0 +1,476 @@
+[
+  {
+    "baseline_preservation_absolute": 0.0,
+    "depletion_difference_quadrupole": 0.09151473028834789,
+    "depletion_difference_with_l4": 0.09151471648352738,
+    "electric_l4_extrapolation_note": "Polynomial continued below .2 Omega_res and, for 211, just above 1.4; the leading amplitude is further suppressed as Omega^(10/3) at low frequency.",
+    "electric_l4_interpolation_check": {
+      "forward": 4.978410005688425e-10,
+      "reverse": 5.835447893472241e-10
+    },
+    "electric_l4_sampled_frequency_range": [
+      0.2,
+      1.4
+    ],
+    "frequency_bounds": [
+      0.05,
+      1.4002959092330463
+    ],
+    "hydrogenic_l4_analytic_relative_error": 0.0,
+    "hydrogenic_l4_kernel": [
+      0.0,
+      0.0
+    ],
+    "point_id": "a0.200000_21+1_21-1",
+    "q": 0.0003226830777463449,
+    "runs": [
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.337650422408392e-08
+          ],
+          [
+            6.337650422408392e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4216715111773498,
+            1.6004147017158788e-06
+          ],
+          [
+            1.6004147017158788e-06,
+            6.083749389642732e-12
+          ]
+        ],
+        "diagonal_loss": 0.5780880217650198,
+        "final_population": 6.083749389642732e-12,
+        "function_evaluations": 12728,
+        "initial_exponential_scaled_error": 6.29770360486512e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.4216715111773498,
+        "minimum_density_eigenvalue": -2.5154691674708283e-24,
+        "mixing_gain": -0.0002404670515467654,
+        "norm_balance_residual": 2.220446049250313e-16,
+        "purity_residual": 1.0603610616853667e-24,
+        "steps": 1164,
+        "survival_change_from_baseline": 0.0,
+        "variant": "baseline"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.337650403640706e-08
+          ],
+          [
+            6.337650403640706e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4216714973725293,
+            1.600414696901144e-06
+          ],
+          [
+            1.600414696901144e-06,
+            6.083749552210357e-12
+          ]
+        ],
+        "diagonal_loss": 0.5780880355612595,
+        "final_population": 6.083749552210357e-12,
+        "function_evaluations": 12728,
+        "initial_exponential_scaled_error": 6.295645563301362e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.4216714973725293,
+        "minimum_density_eigenvalue": -2.517084754604721e-24,
+        "mixing_gain": -0.00024046706012938366,
+        "norm_balance_residual": 1.9984014443252818e-15,
+        "purity_residual": 1.0617235210308985e-24,
+        "steps": 1164,
+        "survival_change_from_baseline": -1.3804820508944715e-08,
+        "variant": "add_l4"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.337636397345374e-08
+          ],
+          [
+            6.337636397345374e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.42167093367762776,
+            1.600415090810794e-06
+          ],
+          [
+            1.600415090810794e-06,
+            6.08376063303797e-12
+          ]
+        ],
+        "diagonal_loss": 0.578088586410867,
+        "final_population": 6.08376063303797e-12,
+        "function_evaluations": 12728,
+        "initial_exponential_scaled_error": 6.295619532141834e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.42167093367762776,
+        "minimum_density_eigenvalue": -2.6107888083704936e-24,
+        "mixing_gain": -0.0002404799054194398,
+        "norm_balance_residual": 1.9984014443252818e-15,
+        "purity_residual": 1.1008937544750948e-24,
+        "steps": 1164,
+        "survival_change_from_baseline": -5.774997220431288e-07,
+        "variant": "linear_frequency"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.337636378577713e-08
+          ],
+          [
+            6.337636378577713e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4216709198728146,
+            1.6004150859959368e-06
+          ],
+          [
+            1.6004150859959368e-06,
+            6.0837607956051486e-12
+          ]
+        ],
+        "diagonal_loss": 0.5780886002070964,
+        "final_population": 6.0837607956051486e-12,
+        "function_evaluations": 12728,
+        "initial_exponential_scaled_error": 6.299786215619147e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.4216709198728146,
+        "minimum_density_eigenvalue": -2.6035186662679768e-24,
+        "mixing_gain": -0.0002404799140034089,
+        "norm_balance_residual": 1.7763568394002505e-15,
+        "purity_residual": 1.0995312262571188e-24,
+        "steps": 1164,
+        "survival_change_from_baseline": -5.913045352246016e-07,
+        "variant": "linear_frequency_add_l4"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            5.7151880881174525e-08
+          ],
+          [
+            -5.7151880881174525e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3301567808890019,
+            -1.4195830991281734e-06
+          ],
+          [
+            -1.4195830991281734e-06,
+            6.1137090911083635e-12
+          ]
+        ],
+        "diagonal_loss": 0.6698432191048856,
+        "final_population": 6.1137090911083635e-12,
+        "function_evaluations": 12549,
+        "initial_exponential_scaled_error": 7.135448722777556e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.3301567808890019,
+        "minimum_density_eigenvalue": -1.950902243532048e-23,
+        "mixing_gain": 0.0,
+        "norm_balance_residual": 1.3322676295501878e-15,
+        "purity_residual": 6.442369538155181e-24,
+        "steps": 1147,
+        "survival_change_from_baseline": -0.09151473028834789,
+        "variant": "hydrogenic"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            5.7151880881174525e-08
+          ],
+          [
+            -5.7151880881174525e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3301567808890019,
+            -1.4195830991281734e-06
+          ],
+          [
+            -1.4195830991281734e-06,
+            6.1137090911083635e-12
+          ]
+        ],
+        "diagonal_loss": 0.6698432191048856,
+        "final_population": 6.1137090911083635e-12,
+        "function_evaluations": 12549,
+        "initial_exponential_scaled_error": 7.135448722777556e-12,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.3301567808890019,
+        "minimum_density_eigenvalue": -1.950902243532048e-23,
+        "mixing_gain": 0.0,
+        "norm_balance_residual": 1.3322676295501878e-15,
+        "purity_residual": 6.442369538155181e-24,
+        "steps": 1147,
+        "survival_change_from_baseline": -0.09151473028834789,
+        "variant": "hydrogenic_add_l4"
+      }
+    ]
+  },
+  {
+    "baseline_preservation_absolute": 0.0,
+    "depletion_difference_quadrupole": 0.13814748129196497,
+    "depletion_difference_with_l4": 0.13831468657300156,
+    "electric_l4_extrapolation_note": "Polynomial continued below .2 Omega_res and, for 211, just above 1.4; the leading amplitude is further suppressed as Omega^(10/3) at low frequency.",
+    "electric_l4_interpolation_check": {
+      "forward": 1.3548506847877347e-10,
+      "reverse": 1.36092199199356e-10
+    },
+    "electric_l4_sampled_frequency_range": [
+      0.2,
+      1.2
+    ],
+    "frequency_bounds": [
+      0.05,
+      1.198507493184193
+    ],
+    "hydrogenic_l4_analytic_relative_error": 4.921974952544647e-15,
+    "hydrogenic_l4_kernel": [
+      1135303.511612528,
+      -0.0
+    ],
+    "point_id": "a0.400000_32+2_32+0",
+    "q": 0.002362245136957447,
+    "runs": [
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.311696660236223e-09
+          ],
+          [
+            6.311696660236223e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4384931280966181,
+            1.9299278965255826e-05
+          ],
+          [
+            1.9299278965255826e-05,
+            8.494140148408821e-10
+          ]
+        ],
+        "diagonal_loss": 0.5614997527634932,
+        "final_population": 8.494140148408821e-10,
+        "function_evaluations": 27378,
+        "initial_exponential_scaled_error": 3.4463916390822433e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.4384931280966181,
+        "minimum_density_eigenvalue": 9.24064141798301e-22,
+        "mixing_gain": -7.118293848096462e-06,
+        "norm_balance_residual": 3.3735236826260007e-12,
+        "purity_residual": 4.048784022115414e-22,
+        "steps": 2530,
+        "survival_change_from_baseline": 0.0,
+        "variant": "baseline"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.3147150552072094e-09
+          ],
+          [
+            6.3147150552072094e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.437534569400332,
+            1.9289606768295233e-05
+          ],
+          [
+            1.9289606768295233e-05,
+            8.504218756045947e-10
+          ]
+        ],
+        "diagonal_loss": 0.5624582832205631,
+        "final_population": 8.504218756045947e-10,
+        "function_evaluations": 27381,
+        "initial_exponential_scaled_error": 3.446530604395398e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.437534569400332,
+        "minimum_density_eigenvalue": 4.373717488874134e-22,
+        "mixing_gain": -7.1465320577566035e-06,
+        "norm_balance_residual": 3.374633905650626e-12,
+        "purity_residual": 1.9154621987389002e-22,
+        "steps": 2530,
+        "survival_change_from_baseline": -0.0009585586962861381,
+        "variant": "add_l4"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.30190012149918e-09
+          ],
+          [
+            6.30190012149918e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4384912769458994,
+            1.9299269030966317e-05
+          ],
+          [
+            1.9299269030966317e-05,
+            8.494167260050067e-10
+          ]
+        ],
+        "diagonal_loss": 0.5615012731752749,
+        "final_population": 8.494167260050067e-10,
+        "function_evaluations": 27391,
+        "initial_exponential_scaled_error": 3.4463914740090326e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.4384912769458994,
+        "minimum_density_eigenvalue": 3.60299195312785e-21,
+        "mixing_gain": -7.449032787271511e-06,
+        "norm_balance_residual": 3.3781866193294263e-12,
+        "purity_residual": 1.579835203417452e-21,
+        "steps": 2531,
+        "survival_change_from_baseline": -1.8511507187124465e-06,
+        "variant": "linear_frequency"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            -6.304939826248515e-09
+          ],
+          [
+            6.304939826248515e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.43753271988544246,
+            1.9289596612162585e-05
+          ],
+          [
+            1.9289596612162585e-05,
+            8.504245746731523e-10
+          ]
+        ],
+        "diagonal_loss": 0.5624598010086633,
+        "final_population": 8.504245746731523e-10,
+        "function_evaluations": 27388,
+        "initial_exponential_scaled_error": 3.446530439010192e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.43753271988544246,
+        "minimum_density_eigenvalue": 4.4442346360942794e-21,
+        "mixing_gain": -7.478258842058764e-06,
+        "norm_balance_residual": 3.3724134596013755e-12,
+        "purity_residual": 1.9444075884936125e-21,
+        "steps": 2531,
+        "survival_change_from_baseline": -0.0009604082111756562,
+        "variant": "linear_frequency_add_l4"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            1.2225787438029193e-08
+          ],
+          [
+            -1.2225787438029193e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.30034564680465314,
+            -1.596814102120447e-05
+          ],
+          [
+            -1.596814102120447e-05,
+            8.48960788573193e-10
+          ]
+        ],
+        "diagonal_loss": 0.6996543523442899,
+        "final_population": 8.48960788573193e-10,
+        "function_evaluations": 26793,
+        "initial_exponential_scaled_error": 4.161732472651385e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.30034564680465314,
+        "minimum_density_eigenvalue": 4.2792224436476073e-20,
+        "mixing_gain": 0.0,
+        "norm_balance_residual": 2.096212092794758e-12,
+        "purity_residual": 1.2852644656655358e-20,
+        "steps": 2497,
+        "survival_change_from_baseline": -0.13814748129196497,
+        "variant": "hydrogenic"
+      },
+      {
+        "density_imag": [
+          [
+            0.0,
+            1.2204147030085851e-08
+          ],
+          [
+            -1.2204147030085851e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.2992198828273304,
+            -1.5939876288026954e-05
+          ],
+          [
+            -1.5939876288026954e-05,
+            8.491407811590649e-10
+          ]
+        ],
+        "diagonal_loss": 0.700780116321435,
+        "final_population": 8.491407811590649e-10,
+        "function_evaluations": 26802,
+        "initial_exponential_scaled_error": 4.1619301668038864e-07,
+        "initial_exponential_steps": 2,
+        "initial_survival": 0.2992198828273304,
+        "minimum_density_eigenvalue": 7.858670768590667e-20,
+        "mixing_gain": 0.0,
+        "norm_balance_residual": 2.0938806244430452e-12,
+        "purity_residual": 2.3514519833898085e-20,
+        "steps": 2497,
+        "survival_change_from_baseline": -0.1392732452692877,
+        "variant": "hydrogenic_add_l4"
+      }
+    ]
+  }
+]

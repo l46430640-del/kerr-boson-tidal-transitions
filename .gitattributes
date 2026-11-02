@@ -5,3 +5,6 @@
 *.json text eol=lf
 *.csv text eol=lf
 *.png binary
+
+# Preserve the byte hashes of the standalone numerical distribution.
+computation/** -text

@@ -1,0 +1,272 @@
+[
+  {
+    "l6_through_l10_relative_shift": 8.700094791962333e-17,
+    "multipoles": [
+      {
+        "angular": [
+          -0.049182069789038614,
+          -8.238927964605564e-12
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 2.983724378680108e-16,
+          "192": 6.245004513516506e-16,
+          "256": 6.938893903907228e-18
+        },
+        "archived_kernel_abs": 994.65788802778,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 2,
+        "kernel": [
+          -994.6578667784133,
+          0.20552358694203918
+        ],
+        "kernel_abs": 994.6578880118171,
+        "outer_domain_relative_displacement": 2.437764427433023e-11,
+        "radial_relative_displacements": [
+          1.6050717102896834e-11,
+          1.5686428958925203e-11
+        ],
+        "relative_amplitude": 1.0
+      },
+      {
+        "angular": [
+          3.200730919273643e-07,
+          2.378383726584124e-11
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 3.269197775310857e-17,
+          "192": 3.3192203648021437e-17,
+          "256": 1.741351508789072e-17
+        },
+        "archived_kernel_abs": 99.93315430294761,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 4,
+        "kernel": [
+          -99.93315059406653,
+          0.02726533009973738
+        ],
+        "kernel_abs": 99.93315431354404,
+        "outer_domain_relative_displacement": 2.7586182146773537e-11,
+        "radial_relative_displacements": [
+          5.767427582345925e-12,
+          6.642820636727231e-12
+        ],
+        "relative_amplitude": 8.226195615087733e-09
+      },
+      {
+        "angular": [
+          -1.1790781452989801e-12,
+          -1.7509484682419957e-16
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.3810521726576734e-17,
+          "192": 9.587676685537648e-18,
+          "256": 5.590866922214055e-17
+        },
+        "archived_kernel_abs": 12.90820410587869,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 6,
+        "kernel": [
+          -12.908368446173505,
+          0.004110322246956183
+        ],
+        "kernel_abs": 12.908369100584192,
+        "outer_domain_relative_displacement": 2.157798249778116e-11,
+        "radial_relative_displacements": [
+          5.7601249180338263e-11,
+          3.471953476862173e-11
+        ],
+        "relative_amplitude": 8.700094697987059e-17
+      },
+      {
+        "angular": [
+          2.6764156115860556e-18,
+          5.959497979895845e-22
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.7941592411997807e-17,
+          "192": 2.0775187220858616e-17,
+          "256": 2.273810001221727e-17
+        },
+        "archived_kernel_abs": 10.392182099462847,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 8,
+        "kernel": [
+          -1.702933935509101,
+          0.0006014830859244801
+        ],
+        "kernel_abs": 1.7029340417322152,
+        "outer_domain_relative_displacement": 1.0442602087326601e-10,
+        "radial_relative_displacements": [
+          2.589785504995926e-10,
+          2.2872117219951205e-10
+        ],
+        "relative_amplitude": 9.39752738141274e-25
+      },
+      {
+        "angular": [
+          -4.105233057183165e-24,
+          -1.218521387071365e-27
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 2.1674245332153948e-17,
+          "192": 5.125526546205283e-18,
+          "256": 8.883340831580649e-18
+        },
+        "archived_kernel_abs": 1219839.590499957,
+        "drop_two_angular_coefficients_relative_displacement": 1.5466245891002927e-08,
+        "ell": 10,
+        "kernel": [
+          -0.22363358552642074,
+          8.527489483062898e-05
+        ],
+        "kernel_abs": 0.22363360178472874,
+        "outer_domain_relative_displacement": 6.346121193763231e-10,
+        "radial_relative_displacements": [
+          9.744742627148632e-10,
+          8.976102527359142e-10
+        ],
+        "relative_amplitude": 1.0104527240860357e-32
+      }
+    ],
+    "net_higher_multipole_relative_shift": 8.22619570208868e-09,
+    "odd_multipoles_exactly_zero": true,
+    "point_id": "a0.200000_21+1_21-1",
+    "q": 0.001,
+    "separation_M": 3494.768528052783
+  },
+  {
+    "l6_through_l10_relative_shift": 2.1930287385609817e-11,
+    "multipoles": [
+      {
+        "angular": [
+          -0.028682275527976763,
+          2.51035102339846e-13
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.491862189340054e-16,
+          "192": 3.8510861166685117e-16,
+          "256": 1.0408340855860843e-17
+        },
+        "archived_kernel_abs": 445.9313205057387,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 2,
+        "kernel": [
+          -445.9313205057313,
+          0.0001475441574623047
+        ],
+        "kernel_abs": 445.9313205057557,
+        "outer_domain_relative_displacement": 9.437672961956008e-12,
+        "radial_relative_displacements": [
+          4.3239736369095905e-14,
+          9.844569652216828e-12
+        ],
+        "relative_amplitude": 1.0
+      },
+      {
+        "angular": [
+          0.02484093006973332,
+          6.567078120617211e-14
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.3877787807814457e-16,
+          "192": 3.0878077872387166e-16,
+          "256": 4.163336342344337e-17
+        },
+        "archived_kernel_abs": 2267158.0417019376,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 4,
+        "kernel": [
+          -2267158.04169916,
+          1.2227516827741565
+        ],
+        "kernel_abs": 2267158.0416994896,
+        "outer_domain_relative_displacement": 1.360411783269818e-11,
+        "radial_relative_displacements": [
+          1.0742518019770493e-12,
+          1.448596798126792e-11
+        ],
+        "relative_amplitude": 0.0006627099068141197
+      },
+      {
+        "angular": [
+          -5.183522825222406e-07,
+          -4.5910002547462876e-14
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 3.136234778415613e-17,
+          "192": 4.057605454703319e-17,
+          "256": 4.870894726921376e-17
+        },
+        "archived_kernel_abs": 575563.1766208664,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 6,
+        "kernel": [
+          -575563.1766551161,
+          0.3578424784553647
+        ],
+        "kernel_abs": 575563.1766552274,
+        "outer_domain_relative_displacement": 2.2164048377858593e-11,
+        "radial_relative_displacements": [
+          2.0872237933013185e-13,
+          1.8808954398902006e-11
+        ],
+        "relative_amplitude": 2.193028684777684e-11
+      },
+      {
+        "angular": [
+          5.141602008515546e-12,
+          9.104532963688155e-19
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.122236805186439e-17,
+          "192": 1.900227004740827e-17,
+          "256": 5.538410601742761e-17
+        },
+        "archived_kernel_abs": 108289.7752199256,
+        "drop_two_angular_coefficients_relative_displacement": 0.0,
+        "ell": 8,
+        "kernel": [
+          -108289.52733594159,
+          0.07413419611857017
+        ],
+        "kernel_abs": 108289.52733596695,
+        "outer_domain_relative_displacement": 2.481836958426265e-11,
+        "radial_relative_displacements": [
+          2.392530701479872e-12,
+          2.5259128126587546e-11
+        ],
+        "relative_amplitude": 5.378329599133464e-19
+      },
+      {
+        "angular": [
+          -3.127147038149127e-17,
+          -8.304404350184319e-24
+        ],
+        "angular_quadrature_absolute_errors": {
+          "128": 1.882490598658361e-17,
+          "192": 1.3536175802382257e-17,
+          "256": 1.090796934415349e-17
+        },
+        "archived_kernel_abs": 6644.484199199452,
+        "drop_two_angular_coefficients_relative_displacement": 2.560174294785627e-13,
+        "ell": 10,
+        "kernel": [
+          -17614.617741719918,
+          0.012954281921812137
+        ],
+        "kernel_abs": 17614.61774172468,
+        "outer_domain_relative_displacement": 1.3486145533660893e-10,
+        "radial_relative_displacements": [
+          2.2343016343493535e-11,
+          4.3240966364067274e-11
+        ],
+        "relative_amplitude": 1.1403648497627363e-26
+      }
+    ],
+    "net_higher_multipole_relative_shift": 0.000662709928744407,
+    "odd_multipoles_exactly_zero": true,
+    "point_id": "a0.350000_32+2_32+0",
+    "q": 0.001,
+    "separation_M": 2769.7793814331435
+  }
+]

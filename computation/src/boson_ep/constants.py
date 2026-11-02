@@ -1,0 +1,6 @@
+"""Physical constants used only for final unit conversion."""
+
+M_SECONDS_PER_SOLAR_MASS = 4.925490947e-6
+SOLAR_MASS_KG = 1.98847e30
+PLANCK_MASS_KG = 2.176434e-8
+SOLAR_MASS_IN_PLANCK_MASS = SOLAR_MASS_KG / PLANCK_MASS_KG
