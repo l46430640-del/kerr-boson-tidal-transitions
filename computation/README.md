@@ -2,7 +2,9 @@
 
 Numerical code and data for scalar quasibound states on the 211, 322 and
 433 Kerr saturation branches, their tidal couplings, and finite-interval
-resonance crossings on a prescribed circular orbit. Units are G=c=hbar=M=1.
+resonance crossings. Physical scalar currents connect the cloud's tidal
+torque and horizon absorption to weak orbital feedback and spectral drift.
+Units are G=c=hbar=M=1, with M the initial black-hole mass.
 
 ## Run
 
@@ -15,6 +17,8 @@ python reproduce.py
 python reproduce.py --components --multipoles
 python reproduce.py --crossings
 python reproduce.py --kernel-point a0.200000_21+1_21-1
+python reproduce.py --scalar-currents --stress-overlaps --spectral-response
+python reproduce.py --torque --feedback
 python reproduce.py --tests
 ```
 
@@ -29,7 +33,7 @@ The crossing command recomputes both Kerr and hydrogenic survivals for
 two saved mass ratios with the same finite endpoints and local 1.5PN orbit.
 It includes independent directed E2+B3 couplings, leading E4 and the
 external electric amplitude. `--optimize` additionally repeats the bounded
-mass-ratio searches, endpoint tests and feedback calculation. This is
+mass-ratio searches, endpoint tests and population-transfer diagnostic. This is
 more expensive. Each command uses one numerical thread and writes to
 `output/reproduction.json`; no full mode scan is launched by default.
 
@@ -38,6 +42,53 @@ couplings from the archived mode coefficients, including both directions.
 Core mode solvers, normalization, metric reconstruction and propagation
 routines are in `src/boson_ep`. `calculations.py` supplies the specific
 factorization, interpolation and finite-interval comparison functions.
+
+The current command integrates number, energy and angular momentum on
+spacelike ingoing Kerr slices for the four crossing modes. The stress
+command rebuilds all ten overlap samples from the mode expansions and
+real tidal metric. The spectral command resolves both complex-frequency
+derivatives using continued fractions and checks the saturated width
+against the differentiated horizon balance. These commands verify the
+saved intermediate inputs independently.
+
+The torque command propagates the prescribed crossings, reconstructs the
+physical stress torque and angular-current residual, and calculates the
+continuous torque bounds including the local 1.5PN orbital derivative.
+The feedback command repeats eighteen coupled evolutions: zero-cloud
+limits, both coupling choices, tolerance refinements, separate torque and
+absorption effects, and two larger-cloud examples. It reads the saved
+overlaps and spectral derivatives. Run the current, stress and spectral
+commands as well to check the entire chain from mode coefficients. `feedback.py` contains
+these numerical functions; `feedback_checks.py` compares the independently
+recalculated quantities with the distributed results.
+
+## Physical Feedback
+
+At initial cloud fraction f_c=1e-12, the coupled survivals are:
+
+| Initial mode | Kerr couplings | Hydrogenic couplings | Difference |
+| --- | ---: | ---: | ---: |
+| 211 | 0.4141549131 | 0.3226483994 | 0.0915065137 |
+| 322 | 0.4392076691 | 0.3008915071 | 0.1383161620 |
+
+The physical mass normalization uses the initial mode energy. The
+hydrogenic comparison replaces the couplings and uses their conjugate
+transfer torque with the same initial number per cloud mass. It retains
+the Kerr frequencies and their absorption response.
+
+The evolution includes the leading tidal torque and resums the secular
+effect of linear complex-frequency and horizon-flux changes. Mode
+profiles, tidal couplings and orbital background parameters stay at their
+initial values. Absorption redistributes mass and spin between cloud and
+hole inside the companion orbit. Cloud self-gravity, additional modes and
+a complete binary history are outside this calculation.
+
+Small orbital torque alone does not ensure a small survival change. In
+the 211 example at f_c=1e-10, accumulated damping of the initially
+saturated mode lowers survival to 0.3846492242 although the relative chirp
+correction stays below 2e-6. The f_c=1e-12 runs establish finite examples
+with small feedback; the continuous torque bounds refer to the prescribed
+crossings in the retained model.
 
 ## Data Conventions
 
@@ -63,10 +114,19 @@ factorization, interpolation and finite-interval comparison functions.
 - `data/multipoles.json` contains the two Newtonian multipole examples
   evaluated by analytic angular integration. The very small terms refer
   to the finite computed spheroidal expansion, not an infinite-tail bound.
+- `data/scalar_currents.json`, `data/stress_overlaps.json` and
+  `data/scalar_torque.json` give the physical normalizations, stress and
+  boundary overlaps, and prescribed-orbit torque/current comparison.
+- `data/spectral_response.json` contains the frequency derivatives and
+  their horizon-balance check; `data/orbital_feedback.json` contains all
+  eighteen coupled runs. The physical torque is positive when the cloud
+  gains angular momentum; its opposite acts on the orbit.
 
-The crossing model prescribes the orbit. The supplied cloud-mass conditions
-quantify where its neglect of orbital feedback is sufficient; the code does
-not infer cloud populations or evolve a complete binary history.
+The older `continuous_feedback_bound` fields in `data/crossings.json`
+and the `feedback_bound` function describe a population-transfer
+diagnostic. The physical stress torque and its continuous bounds are
+computed by `--torque`. The integrated current residual measures the
+angular-momentum-weighted two-mode error, not the norm of all omitted modes.
 
 ## Integrity and License
 

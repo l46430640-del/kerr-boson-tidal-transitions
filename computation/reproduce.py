@@ -120,9 +120,9 @@ def crossings(optimize=False):
         bound = c.feedback_bound(record, coefficients, q, .05, upper)
         old_bound = target["continuous_feedback_bound"]["cloud_fraction_for_ten_percent_bound"]
         if abs(bound["cloud_fraction_for_ten_percent_bound"]/old_bound-1) > 1e-10:
-            raise AssertionError("Orbital feedback bound does not reproduce")
+            raise AssertionError("Population-transfer diagnostic does not reproduce")
         sample = {"point_id": record["point_id"], "q": q, "upper_frequency_ratio": upper,
-                  "runs": runs, "feedback": bound, "survival_displacements": errors}
+                  "runs": runs, "transfer_diagnostic": bound, "survival_displacements": errors}
         if optimize:
             sample["optimized"] = c.assess(record, higher[record["point_id"]], previous[record["point_id"]])
         result.append(sample)
@@ -172,6 +172,11 @@ def main():
     parser.add_argument("--optimize", action="store_true", help="Repeat the bounded local maximum searches")
     parser.add_argument("--kernel-point", help="Recompute a saved-mode coupling, for example a0.200000_21+1_21-1")
     parser.add_argument("--tests", action="store_true")
+    parser.add_argument("--scalar-currents", action="store_true")
+    parser.add_argument("--stress-overlaps", action="store_true")
+    parser.add_argument("--spectral-response", action="store_true")
+    parser.add_argument("--torque", action="store_true")
+    parser.add_argument("--feedback", action="store_true")
     args = parser.parse_args()
     report = {"integrity": verify_files(), "accuracy": accuracy()}
     if args.components:
@@ -182,6 +187,17 @@ def main():
         report["crossings"] = crossings(args.optimize)
     if args.kernel_point:
         report["kernel"] = kernel_point(args.kernel_point)
+    if any((args.scalar_currents, args.stress_overlaps, args.spectral_response, args.torque, args.feedback)):
+        import feedback_checks as fc
+        for enabled, name, calculate in (
+            (args.scalar_currents, "scalar_currents", fc.scalar_currents),
+            (args.stress_overlaps, "stress_overlaps", fc.stress_overlaps),
+            (args.spectral_response, "spectral_response", fc.spectral_response),
+            (args.torque, "scalar_torque", fc.scalar_torque),
+            (args.feedback, "orbital_feedback", fc.orbital_feedback),
+        ):
+            if enabled:
+                report[name] = calculate()
     if args.tests:
         log = io.StringIO()
         suite = unittest.defaultTestLoader.discover(str(ROOT/"tests"), top_level_dir=str(ROOT))

@@ -6,14 +6,16 @@ authors:
   - family-names: "Li"
     given-names: "Yi-kun"
     affiliation: "Xinjiang Astronomical Observatory, Chinese Academy of Sciences"
-version: "0.2.0"
-date-released: 2026-11-02
+version: "0.3.0"
+date-released: 2026-11-03
 repository-code: "https://github.com/l46430640-del/kerr-boson-tidal-transitions"
 url: "https://github.com/l46430640-del/kerr-boson-tidal-transitions"
 license: MIT
 abstract: >-
   Python implementations and validated numerical data for relativistic tidal
   transitions between scalar quasibound states of saturated Kerr boson clouds.
+  Includes physical scalar currents, tidal torque and secular absorption
+  response in coupled weak-cloud examples.
 keywords:
   - Kerr black holes
   - boson clouds

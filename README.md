@@ -11,15 +11,18 @@ and convergence checks.
 The self-contained [computation](computation/README.md) directory contains
 the current calculation and numerical data. It includes the Hamiltonian
 projection, both directed complex couplings, matched electric and magnetic
-tidal fields, and finite-interval dissipative crossings.
+tidal fields, and finite-interval dissipative crossings. Physical scalar
+currents supply the tidal torque and horizon balance for coupled weak-cloud
+examples with the leading secular response to absorption.
 
 ```sh
 cd computation
 python -m pip install -r requirements-lock.txt
 python reproduce.py --components --multipoles --crossings --tests
+python reproduce.py --scalar-currents --stress-overlaps --spectral-response --torque --feedback --tests
 ```
 
-The [v0.2.0 release](https://github.com/l46430640-del/kerr-boson-tidal-transitions/releases/tag/v0.2.0)
+The [v0.3.0 release](https://github.com/l46430640-del/kerr-boson-tidal-transitions/releases/tag/v0.3.0)
 provides the same numerical distribution as a standalone ZIP. Its manifest
 records the hashes of all distributed inputs and source files. The
 computation README specifies the phase conventions and additional commands.

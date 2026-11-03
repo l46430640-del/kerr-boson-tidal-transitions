@@ -1,0 +1,384 @@
+[
+  {
+    "final_to_initial_number_norm": 1.0000013103308725,
+    "modes": [
+      {
+        "alpha": 0.2,
+        "analytic_horizon_flux": {
+          "angular_momentum": 1.085753421907239e-24,
+          "energy": 2.7143835547680976e-25,
+          "number": 1.085753421907239e-24
+        },
+        "angular_norm": 0.9999999999999988,
+        "balance_residual": {
+          "angular_momentum": -2.988247072404741e-20,
+          "energy": -5.9453370702988794e-21,
+          "number": -2.988247072404741e-20
+        },
+        "charges": {
+          "angular_momentum": 0.5000000000012894,
+          "energy": 0.09947867305245618,
+          "number": 0.5000000000012894
+        },
+        "chi": 0.6870453082262964,
+        "coarse": {
+          "alpha": 0.2,
+          "analytic_horizon_flux": {
+            "angular_momentum": 1.0857534219072409e-24,
+            "energy": 2.714383554768102e-25,
+            "number": 1.0857534219072409e-24
+          },
+          "angular_norm": 1.0000000000000004,
+          "balance_residual": {
+            "angular_momentum": -2.988247363943161e-20,
+            "energy": -5.945337650335959e-21,
+            "number": -2.988247363943161e-20
+          },
+          "charges": {
+            "angular_momentum": 0.5000000000013385,
+            "energy": 0.09947867305246556,
+            "number": 0.5000000000013385
+          },
+          "chi": 0.6870453082262964,
+          "frequency": [
+            0.19895734610440102,
+            -2.988317489696441e-20
+          ],
+          "horizon_flux": {
+            "angular_momentum": 7.012576127984906e-25,
+            "energy": 1.3952035357789534e-25,
+            "number": 7.012576127984906e-25
+          },
+          "outer_flux": {
+            "angular_momentum": 2.9232661932971224e-38,
+            "energy": 6.498199838018741e-39,
+            "number": 2.9445624176464384e-38
+          },
+          "outer_radius": 1374.5817515832841,
+          "quadrature": {
+            "angular_nodes": 24,
+            "outer_decay_lengths": 28.0,
+            "radial_nodes": 32
+          },
+          "radial_matching_residual": 2.7103098463597993e-06,
+          "state": "21+1"
+        },
+        "frequency": [
+          0.19895734610440102,
+          -2.988317489696441e-20
+        ],
+        "horizon_flux": {
+          "angular_momentum": 7.041729940631048e-25,
+          "energy": 1.4010039009718549e-25,
+          "number": 7.041729940631048e-25
+        },
+        "outer_flux": {
+          "angular_momentum": -2.79192639632894e-48,
+          "energy": -6.190944536803242e-49,
+          "number": -2.9204874897443197e-48
+        },
+        "outer_radius": 1962.9482388714157,
+        "quadrature": {
+          "angular_nodes": 36,
+          "outer_decay_lengths": 40,
+          "radial_nodes": 48
+        },
+        "radial_matching_residual": 2.710309785491609e-06,
+        "relative_charge_refinement": {
+          "angular_momentum": 9.814371537661075e-14,
+          "energy": 9.430548548969553e-14,
+          "number": 9.814371537661075e-14
+        },
+        "state": "21+1"
+      },
+      {
+        "alpha": 0.2,
+        "analytic_horizon_flux": {
+          "angular_momentum": -1.5608847437116413e-07,
+          "energy": 3.105343683263559e-08,
+          "number": 1.5608847437116413e-07
+        },
+        "angular_norm": 0.9999999999999988,
+        "balance_residual": {
+          "angular_momentum": 1.246635722016771e-15,
+          "energy": -2.480153828591219e-16,
+          "number": -1.246635722016771e-15
+        },
+        "charges": {
+          "angular_momentum": -0.5000006551667256,
+          "energy": 0.0994739606755027,
+          "number": 0.5000006551667256
+        },
+        "chi": 0.6870453082262964,
+        "coarse": {
+          "alpha": 0.2,
+          "analytic_horizon_flux": {
+            "angular_momentum": -1.560884743711644e-07,
+            "energy": 3.1053436832635644e-08,
+            "number": 1.560884743711644e-07
+          },
+          "angular_norm": 1.0000000000000004,
+          "balance_residual": {
+            "angular_momentum": 1.2466747384911287e-15,
+            "energy": -2.480231583607413e-16,
+            "number": -1.2466747384911287e-15
+          },
+          "charges": {
+            "angular_momentum": -0.5000006551668514,
+            "energy": 0.09947396067552772,
+            "number": 0.5000006551668514
+          },
+          "chi": 0.6870453082262964,
+          "frequency": [
+            0.1989476606631685,
+            -1.560882710901169e-07
+          ],
+          "horizon_flux": {
+            "angular_momentum": -1.560884743711644e-07,
+            "energy": 3.1053436832635644e-08,
+            "number": 1.560884743711644e-07
+          },
+          "outer_flux": {
+            "angular_momentum": 1.922479477253878e-26,
+            "energy": -3.8613730894646525e-27,
+            "number": -1.9224794772540236e-26
+          },
+          "outer_radius": 1368.266041551607,
+          "quadrature": {
+            "angular_nodes": 24,
+            "outer_decay_lengths": 28.0,
+            "radial_nodes": 32
+          },
+          "radial_matching_residual": 2.5015588871449455e-06,
+          "state": "21-1"
+        },
+        "frequency": [
+          0.1989476606631685,
+          -1.560882710901169e-07
+        ],
+        "horizon_flux": {
+          "angular_momentum": -1.5608847437116416e-07,
+          "energy": 3.1053436832635604e-08,
+          "number": 1.5608847437116416e-07
+        },
+        "outer_flux": {
+          "angular_momentum": 2.778478096746605e-36,
+          "energy": -5.58229803904107e-37,
+          "number": -2.77847809674656e-36
+        },
+        "outer_radius": 1953.92579596902,
+        "quadrature": {
+          "angular_nodes": 36,
+          "outer_decay_lengths": 40,
+          "radial_nodes": 48
+        },
+        "radial_matching_residual": 2.5015588697971373e-06,
+        "relative_balance_error": {
+          "angular_momentum": 7.986725009896535e-09,
+          "energy": 7.98672894713123e-09,
+          "number": 7.986725009896535e-09
+        },
+        "relative_charge_refinement": {
+          "angular_momentum": 2.5157620773133993e-13,
+          "energy": 2.5153971197661893e-13,
+          "number": 2.5157620773133993e-13
+        },
+        "state": "21-1"
+      }
+    ],
+    "physical_initial_number_per_cloud_energy": 5.026202950431737,
+    "point_id": "a0.200000_21+1_21-1",
+    "relative_error_of_number_equals_mass_over_mu": 0.005240590086347474
+  },
+  {
+    "final_to_initial_number_norm": 1.0000000149379051,
+    "modes": [
+      {
+        "alpha": 0.4,
+        "analytic_horizon_flux": {
+          "angular_momentum": -2.7568507342176495e-23,
+          "energy": -5.463271272077659e-24,
+          "number": -1.3784253671088247e-23
+        },
+        "angular_norm": 0.999999999999999,
+        "balance_residual": {
+          "angular_momentum": -1.055526256141904e-17,
+          "energy": -2.0911498986487215e-18,
+          "number": -5.27763128070952e-18
+        },
+        "charges": {
+          "angular_momentum": 1.000000000032639,
+          "energy": 0.19811443690282227,
+          "number": 0.5000000000163195
+        },
+        "chi": 0.6849261736345013,
+        "coarse": {
+          "alpha": 0.4,
+          "analytic_horizon_flux": {
+            "angular_momentum": -2.756850734217653e-23,
+            "energy": -5.463271272077666e-24,
+            "number": -1.3784253671088265e-23
+          },
+          "angular_norm": 1.0000000000000002,
+          "balance_residual": {
+            "angular_momentum": -1.0555262595858099e-17,
+            "energy": -2.0911499054715976e-18,
+            "number": -5.277631297929049e-18
+          },
+          "charges": {
+            "angular_momentum": 1.0000000000326186,
+            "energy": 0.19811443690281835,
+            "number": 0.5000000000163093
+          },
+          "chi": 0.6849261736345013,
+          "frequency": [
+            0.3962288737927122,
+            -5.2776174939307594e-18
+          ],
+          "horizon_flux": {
+            "angular_momentum": -2.760765228400636e-23,
+            "energy": -5.4694744862763196e-24,
+            "number": -1.380382614200318e-23
+          },
+          "outer_flux": {
+            "angular_momentum": -8.729650398642508e-35,
+            "energy": -1.7117648565134138e-35,
+            "number": -4.3100553478209046e-35
+          },
+          "outer_radius": 512.7081825727043,
+          "quadrature": {
+            "angular_nodes": 24,
+            "outer_decay_lengths": 28.0,
+            "radial_nodes": 32
+          },
+          "radial_matching_residual": 1.2011908388469778e-07,
+          "state": "32+2"
+        },
+        "frequency": [
+          0.3962288737927122,
+          -5.2776174939307594e-18
+        ],
+        "horizon_flux": {
+          "angular_momentum": -2.75732130100286e-23,
+          "energy": -5.462651568905096e-24,
+          "number": -1.37866065050143e-23
+        },
+        "outer_flux": {
+          "angular_momentum": -2.8508829094169823e-44,
+          "energy": -5.64451102622488e-45,
+          "number": -1.415328642748764e-44
+        },
+        "outer_radius": 731.6994269008964,
+        "quadrature": {
+          "angular_nodes": 36,
+          "outer_decay_lengths": 40,
+          "radial_nodes": 48
+        },
+        "radial_matching_residual": 1.2011916444186464e-07,
+        "relative_charge_refinement": {
+          "angular_momentum": 2.042810365243613e-14,
+          "energy": 1.9753917094508956e-14,
+          "number": 2.042810365243613e-14
+        },
+        "state": "32+2"
+      },
+      {
+        "alpha": 0.4,
+        "analytic_horizon_flux": {
+          "angular_momentum": 0.0,
+          "energy": 2.1774154242439692e-09,
+          "number": 5.495849240106944e-09
+        },
+        "angular_norm": 1.0000000000000049,
+        "balance_residual": {
+          "angular_momentum": 0.0,
+          "energy": -3.986390167046179e-20,
+          "number": -1.0060915072421222e-19
+        },
+        "charges": {
+          "angular_momentum": 0.0,
+          "energy": 0.19809635979012918,
+          "number": 0.5000000074852721
+        },
+        "chi": 0.6849261736345013,
+        "coarse": {
+          "alpha": 0.4,
+          "analytic_horizon_flux": {
+            "angular_momentum": 0.0,
+            "energy": 2.177415424243957e-09,
+            "number": 5.495849240106912e-09
+          },
+          "angular_norm": 0.9999999999999991,
+          "balance_residual": {
+            "angular_momentum": 0.0,
+            "energy": -3.9888320937059295e-20,
+            "number": -1.0066709667536113e-19
+          },
+          "charges": {
+            "angular_momentum": 0.0,
+            "energy": 0.19809635979013027,
+            "number": 0.5000000074852745
+          },
+          "chi": 0.6849261736345013,
+          "frequency": [
+            0.39619271364903713,
+            -5.495849157931702e-09
+          ],
+          "horizon_flux": {
+            "angular_momentum": -0.0,
+            "energy": 2.1774154242439572e-09,
+            "number": 5.495849240106914e-09
+          },
+          "outer_flux": {
+            "angular_momentum": 0.0,
+            "energy": -1.7438527196622914e-26,
+            "number": -4.330827021033603e-26
+          },
+          "outer_radius": 510.2873976296326,
+          "quadrature": {
+            "angular_nodes": 24,
+            "outer_decay_lengths": 28.0,
+            "radial_nodes": 32
+          },
+          "radial_matching_residual": 7.886466608336852e-08,
+          "state": "32+0"
+        },
+        "frequency": [
+          0.39619271364903713,
+          -5.495849157931702e-09
+        ],
+        "horizon_flux": {
+          "angular_momentum": -0.0,
+          "energy": 2.17741542424397e-09,
+          "number": 5.495849240106945e-09
+        },
+        "outer_flux": {
+          "angular_momentum": 0.0,
+          "energy": -4.688006066866574e-36,
+          "number": -1.1633062432394901e-35
+        },
+        "outer_radius": 728.2411626965081,
+        "quadrature": {
+          "angular_nodes": 36,
+          "outer_decay_lengths": 40,
+          "radial_nodes": 48
+        },
+        "radial_matching_residual": 7.886477882007021e-08,
+        "relative_balance_error": {
+          "angular_momentum": 0.0,
+          "energy": 1.830789900108433e-11,
+          "number": 1.8306388390350833e-11
+        },
+        "relative_charge_refinement": {
+          "angular_momentum": 0.0,
+          "energy": 5.464348007991337e-15,
+          "number": 4.8849812352198616e-15
+        },
+        "state": "32+0"
+      }
+    ],
+    "physical_initial_number_per_cloud_energy": 2.5237938629458694,
+    "point_id": "a0.400000_32+2_32+0",
+    "relative_error_of_number_equals_mass_over_mu": 0.009517545178347797
+  }
+]

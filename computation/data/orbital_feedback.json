@@ -1,0 +1,944 @@
+[
+  {
+    "coupled_survival_difference": 0.09150651372875057,
+    "difference_change": -2.5244909256538772e-05,
+    "point_id": "a0.200000_21+1_21-1",
+    "prescribed_survival_difference": 0.09153175863800711,
+    "runs": {
+      "absorption_only": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.936377609100194,
+        "absorbed_energy_per_cloud_fraction": 0.5855708432230805,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -2.936377609100194e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -6.346631252608694e-08
+          ],
+          [
+            6.346631252608694e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.41415491646075475,
+            1.6027007878020616e-06
+          ],
+          [
+            1.6027007878020616e-06,
+            6.211873107596705e-12
+          ]
+        ],
+        "final_population": 6.211873107596705e-12,
+        "function_evaluations": 8739,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0664459601284324e-07,
+        "initial_survival": 0.41415491646075475,
+        "integrated_initial_decay_exponent": 0.00105614722215705,
+        "mass_change": 5.855708432230805e-13,
+        "max_final_width_change_over_Gamma": 1.1989143857500424e-12,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 6.282963108678046e-20,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 1.3245280491845535e-10,
+        "minimum_density_eigenvalue": -2.5469892724530736e-22,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 8.881784197001252e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 1.0548548203928033e-22,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 874,
+        "survival_change_from_prescribed": -0.0004382693854236841,
+        "torque_feedback": false,
+        "variant": "matched"
+      },
+      "hydrogenic_coupled": {
+        "absorbed_angular_momentum_per_cloud_fraction": -3.396627854232902,
+        "absorbed_energy_per_cloud_fraction": 0.6773195511124455,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -3.396627854232902e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            5.6946412062122976e-08
+          ],
+          [
+            -5.6946412062122976e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3226483993930178,
+            -1.4144951355396015e-06
+          ],
+          [
+            -1.4144951355396015e-06,
+            6.211217492731885e-12
+          ]
+        ],
+        "final_population": 6.211217492731885e-12,
+        "function_evaluations": 8837,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.3226483993930178,
+        "integrated_initial_decay_exponent": 0.0012773376310228053,
+        "mass_change": 6.773195511124455e-13,
+        "max_final_width_change_over_Gamma": 1.386511777135964e-12,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 7.267660482112524e-20,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 2.0740745743323175e-08,
+        "max_resonance_detuning_shift_over_Gamma": 1.5322131370036074e-10,
+        "minimum_density_eigenvalue": -2.754576063286938e-25,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 6.661338147750939e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 8.861532257706956e-26,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 873,
+        "survival_change_from_prescribed": -0.0004130278146468602,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "hydrogenic_refined": {
+        "absorbed_angular_momentum_per_cloud_fraction": -3.396627854239449,
+        "absorbed_energy_per_cloud_fraction": 0.6773195511137876,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -3.396627854239449e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            5.6946412062083966e-08
+          ],
+          [
+            -5.6946412062083966e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3226483993916793,
+            -1.4144951355336937e-06
+          ],
+          [
+            -1.4144951355336937e-06,
+            6.211217492625917e-12
+          ]
+        ],
+        "final_population": 6.211217492625917e-12,
+        "function_evaluations": 14730,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.3226483993916793,
+        "integrated_initial_decay_exponent": 0.0012790481464935004,
+        "mass_change": 6.773195511137876e-13,
+        "max_final_width_change_over_Gamma": 1.3865117771389795e-12,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 7.26766048212664e-20,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 2.0740745710296655e-08,
+        "max_resonance_detuning_shift_over_Gamma": 1.532213137006488e-10,
+        "minimum_density_eigenvalue": -8.019774532643026e-23,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 4.218847493575595e-15,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 2.587541353109294e-23,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1525,
+        "survival_change_from_prescribed": -0.0004130278159854006,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "hydrogenic_zero": {
+        "absorbed_angular_momentum_per_cloud_fraction": -3.402435110100698,
+        "absorbed_energy_per_cloud_fraction": 0.676906505712975,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -0.0,
+        "cloud_fraction": 0.0,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            5.701931015952709e-08
+          ],
+          [
+            -5.701931015952709e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.32306142720922765,
+            -1.4163058553221993e-06
+          ],
+          [
+            -1.4163058553221993e-06,
+            6.219168577425305e-12
+          ]
+        ],
+        "final_population": 6.219168577425305e-12,
+        "function_evaluations": 7781,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.32306142720922765,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 0.0,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": -2.702934628345627e-21,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 6.661338147750939e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 8.732139186865778e-22,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 705,
+        "survival_change_from_prescribed": 1.5629719740672954e-12,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "larger_cloud": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.7040982184775295,
+        "absorbed_energy_per_cloud_fraction": 0.6150740796933287,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -2.70409821847753e-10,
+        "cloud_fraction": 1e-10,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -5.894477377594383e-08
+          ],
+          [
+            5.894477377594383e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.38464922420294484,
+            1.4885193677515517e-06
+          ],
+          [
+            1.4885193677515517e-06,
+            5.769319824120437e-12
+          ]
+        ],
+        "final_population": 5.769319824120437e-12,
+        "function_evaluations": 14654,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0629920080398496e-07,
+        "initial_survival": 0.38464922420294484,
+        "integrated_initial_decay_exponent": 0.07495775413346752,
+        "mass_change": 6.150740796933288e-11,
+        "max_final_width_change_over_Gamma": 1.817804772396132e-10,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 6.007618588856036e-18,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.7830788848317317e-06,
+        "max_resonance_detuning_shift_over_Gamma": 1.121192155611775e-08,
+        "minimum_density_eigenvalue": -9.919705002100762e-25,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 0.0,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 3.8000709755973106e-25,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1467,
+        "survival_change_from_prescribed": -0.029943961643233596,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_coupled": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.936377625869586,
+        "absorbed_energy_per_cloud_fraction": 0.5855708465602294,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -2.936377625869586e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -6.346631201370519e-08
+          ],
+          [
+            6.346631201370519e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4141549131214731,
+            1.6027007748798114e-06
+          ],
+          [
+            1.6027007748798114e-06,
+            6.211873057758849e-12
+          ]
+        ],
+        "final_population": 6.211873057758849e-12,
+        "function_evaluations": 8754,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0664459600368877e-07,
+        "initial_survival": 0.4141549131214731,
+        "integrated_initial_decay_exponent": 0.001056147227585342,
+        "mass_change": 5.855708465602294e-13,
+        "max_final_width_change_over_Gamma": 1.1989143925311004e-12,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 6.282963144539124e-20,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.8071422977717365e-08,
+        "max_resonance_detuning_shift_over_Gamma": 1.3245280567646815e-10,
+        "minimum_density_eigenvalue": -7.806517030969199e-24,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 5.551115123125783e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 3.2331073827433128e-24,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 874,
+        "survival_change_from_prescribed": -0.0004382727247053131,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_refined": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.936377625874624,
+        "absorbed_energy_per_cloud_fraction": 0.5855708465612723,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -2.936377625874624e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -6.346631201352307e-08
+          ],
+          [
+            6.346631201352307e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.41415491312042985,
+            1.6027007748757812e-06
+          ],
+          [
+            1.6027007748757812e-06,
+            6.211873057750717e-12
+          ]
+        ],
+        "final_population": 6.211873057750717e-12,
+        "function_evaluations": 14821,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0661167967970977e-07,
+        "initial_survival": 0.41415491312042985,
+        "integrated_initial_decay_exponent": 0.0010574801550170348,
+        "mass_change": 5.855708465612723e-13,
+        "max_final_width_change_over_Gamma": 1.198914392533517e-12,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 6.282963144550016e-20,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.8071423011474275e-08,
+        "max_resonance_detuning_shift_over_Gamma": 1.3245280567668547e-10,
+        "minimum_density_eigenvalue": -3.368499174166138e-25,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 4.440892098500626e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 1.401771518399934e-25,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1535,
+        "survival_change_from_prescribed": -0.00043827272574858966,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_zero": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.9411356215338715,
+        "absorbed_energy_per_cloud_fraction": 0.5851325267796482,
+        "absorption_changes_background": true,
+        "angular_momentum_change": -0.0,
+        "cloud_fraction": 0.0,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -6.353347421080764e-08
+          ],
+          [
+            6.353347421080764e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.41459318584723476,
+            1.6043968070128239e-06
+          ],
+          [
+            1.6043968070128239e-06,
+            6.218446671754183e-12
+          ]
+        ],
+        "final_population": 6.218446671754183e-12,
+        "function_evaluations": 7704,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0667451651833462e-07,
+        "initial_survival": 0.41459318584723476,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 0.0,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": -8.330936614630747e-23,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 7.771561172376096e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 3.4539495521511456e-23,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 709,
+        "survival_change_from_prescribed": 1.0563216967796052e-12,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "torque_only": {
+        "absorbed_angular_momentum_per_cloud_fraction": -2.941135638321396,
+        "absorbed_energy_per_cloud_fraction": 0.585132530119489,
+        "absorption_changes_background": false,
+        "angular_momentum_change": -2.9411356383213956e-12,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 4.714985579122946e-07,
+        "density_imag": [
+          [
+            0.0,
+            -6.353347369867356e-08
+          ],
+          [
+            6.353347369867356e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4145931825052594,
+            1.6043967940800146e-06
+          ],
+          [
+            1.6043967940800146e-06,
+            6.218446621628191e-12
+          ]
+        ],
+        "final_population": 6.218446621628191e-12,
+        "function_evaluations": 7704,
+        "horizon_energy_cap_integral_bound_per_fc": 2.0667451650919797e-07,
+        "initial_survival": 0.4145931825052594,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 5.85132530119489e-13,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.807909738744416e-08,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": -8.330694276560663e-23,
+        "minimum_pn_orbital_derivative_factor": 0.9994935576011044,
+        "norm_balance_residual": 6.661338147750939e-16,
+        "point_id": "a0.200000_21+1_21-1",
+        "purity_residual": 3.453882543168234e-23,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 709,
+        "survival_change_from_prescribed": -3.3409190414168677e-09,
+        "torque_feedback": true,
+        "variant": "matched"
+      }
+    },
+    "survival_refinement_absolute": {
+      "hydrogenic": 1.33854038963932e-12,
+      "matched": 1.0432765762402596e-12
+    }
+  },
+  {
+    "coupled_survival_difference": 0.13831616198353264,
+    "difference_change": 7.34206084818112e-09,
+    "point_id": "a0.400000_32+2_32+0",
+    "prescribed_survival_difference": 0.1383161546414718,
+    "runs": {
+      "absorption_only": {
+        "absorbed_angular_momentum_per_cloud_fraction": 3.020752343001916e-08,
+        "absorbed_energy_per_cloud_fraction": 0.5607340626981494,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 3.0207523430019154e-20,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.310419817804367e-09
+          ],
+          [
+            6.310419817804367e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4392077044880206,
+            1.9274245684143916e-05
+          ],
+          [
+            1.9274245684143916e-05,
+            8.458334922839667e-10
+          ]
+        ],
+        "final_population": 8.458334922839667e-10,
+        "function_evaluations": 15773,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8164559603671182e-09,
+        "initial_survival": 0.4392077044880206,
+        "integrated_initial_decay_exponent": 1.1970361592091659e-08,
+        "mass_change": 5.607340626981494e-13,
+        "max_final_width_change_over_Gamma": 1.3169009046601535e-11,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 4.1764781291854824e-22,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 1.4070073138406623e-08,
+        "minimum_density_eigenvalue": 2.5019008204855444e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 1.0409451078885468e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 1.0988268684147981e-20,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1395,
+        "survival_change_from_prescribed": -6.054512446951321e-09,
+        "torque_feedback": false,
+        "variant": "matched"
+      },
+      "hydrogenic_coupled": {
+        "absorbed_angular_momentum_per_cloud_fraction": 2.359685560797458e-08,
+        "absorbed_energy_per_cloud_fraction": 0.6990447013029584,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 2.359685560797458e-20,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            1.2216242702331392e-08
+          ],
+          [
+            -1.2216242702331392e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3008915071272074,
+            -1.595514903402005e-05
+          ],
+          [
+            -1.595514903402005e-05,
+            8.46042257452601e-10
+          ]
+        ],
+        "final_population": 8.46042257452601e-10,
+        "function_evaluations": 15597,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.3008915071272074,
+        "integrated_initial_decay_exponent": 1.49604033173266e-08,
+        "mass_change": 6.990447013029584e-13,
+        "max_final_width_change_over_Gamma": 1.641727626256321e-11,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 5.206648092430888e-22,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 2.4177075413178367e-07,
+        "max_resonance_detuning_shift_over_Gamma": 1.7540596619441496e-08,
+        "minimum_density_eigenvalue": 1.2765774995954307e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 2.084554751036194e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 3.841206612537453e-21,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1378,
+        "survival_change_from_prescribed": -4.8772410277120315e-08,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "hydrogenic_refined": {
+        "absorbed_angular_momentum_per_cloud_fraction": 2.3596855602004e-08,
+        "absorbed_energy_per_cloud_fraction": 0.6990447013060467,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 2.3596855602004e-20,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            1.2216242701601372e-08
+          ],
+          [
+            -1.2216242701601372e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.300891507125161,
+            -1.5955149033912018e-05
+          ],
+          [
+            -1.5955149033912018e-05,
+            8.460422574805755e-10
+          ]
+        ],
+        "final_population": 8.460422574805755e-10,
+        "function_evaluations": 26532,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.300891507125161,
+        "integrated_initial_decay_exponent": 1.4962508727417107e-08,
+        "mass_change": 6.990447013060467e-13,
+        "max_final_width_change_over_Gamma": 1.641727626263574e-11,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 5.20664809245389e-22,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 2.41782433651175e-07,
+        "max_resonance_detuning_shift_over_Gamma": 1.7540596619519006e-08,
+        "minimum_density_eigenvalue": 4.6443606455438276e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 1.0432765762402596e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 1.397454896560995e-20,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 2503,
+        "survival_change_from_prescribed": -4.8774456695710455e-08,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "hydrogenic_zero": {
+        "absorbed_angular_momentum_per_cloud_fraction": 0.0,
+        "absorbed_energy_per_cloud_fraction": 0.6990446525321855,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 0.0,
+        "cloud_fraction": 0.0,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            1.2216244682057286e-08
+          ],
+          [
+            -1.2216244682057286e-08,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.3008915559020033,
+            -1.595515162015157e-05
+          ],
+          [
+            -1.595515162015157e-05,
+            8.46042394566256e-10
+          ]
+        ],
+        "final_population": 8.46042394566256e-10,
+        "function_evaluations": 15606,
+        "horizon_energy_cap_integral_bound_per_fc": 0.0,
+        "initial_survival": 0.3008915559020033,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 0.0,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": 4.779346181754825e-21,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 2.0846657733386564e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 1.4379404629917514e-21,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1378,
+        "survival_change_from_prescribed": 2.385591724163305e-12,
+        "torque_feedback": true,
+        "variant": "hydrogenic"
+      },
+      "larger_cloud": {
+        "absorbed_angular_momentum_per_cloud_fraction": 0.0002687687124659418,
+        "absorbed_energy_per_cloud_fraction": 0.561148457744633,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 2.687687124659418e-12,
+        "cloud_fraction": 1e-08,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.304469558667582e-09
+          ],
+          [
+            6.304469558667582e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.4387932717075091,
+            1.925606074044051e-05
+          ],
+          [
+            1.925606074044051e-05,
+            8.450355529465658e-10
+          ]
+        ],
+        "final_population": 8.450355529465658e-10,
+        "function_evaluations": 27522,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8131744780027883e-09,
+        "initial_survival": 0.4387932717075091,
+        "integrated_initial_decay_exponent": 0.0001194808156809067,
+        "mass_change": 5.6114845774463295e-09,
+        "max_final_width_change_over_Gamma": 1.3178001387432464e-07,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 4.1784878408862695e-18,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0019635960681590914,
+        "max_resonance_detuning_shift_over_Gamma": 0.00014082849518073167,
+        "minimum_density_eigenvalue": 1.633888504945368e-21,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 5.193623309196482e-13,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 7.168939125293583e-22,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 2620,
+        "survival_change_from_prescribed": -0.00041443883502395584,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_coupled": {
+        "absorbed_angular_momentum_per_cloud_fraction": 3.020752319914796e-08,
+        "absorbed_energy_per_cloud_fraction": 0.5607340980730924,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 3.020752319914796e-20,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.310419309555669e-09
+          ],
+          [
+            6.310419309555669e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.43920766910939313,
+            1.9274244131579873e-05
+          ],
+          [
+            1.9274244131579873e-05,
+            8.458334241438211e-10
+          ]
+        ],
+        "final_population": 8.458334241438211e-10,
+        "function_evaluations": 15773,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8164559592393364e-09,
+        "initial_survival": 0.43920766910939313,
+        "integrated_initial_decay_exponent": 1.1970362343906004e-08,
+        "mass_change": 5.607340980730924e-13,
+        "max_final_width_change_over_Gamma": 1.3169009877392773e-11,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 4.1764783926663195e-22,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.964362364044442e-07,
+        "max_resonance_detuning_shift_over_Gamma": 1.4070074026043035e-08,
+        "minimum_density_eigenvalue": 1.7967190085264314e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 1.0398348848639216e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 7.891327677794309e-21,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1395,
+        "survival_change_from_prescribed": -4.143313991900044e-08,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_refined": {
+        "absorbed_angular_momentum_per_cloud_fraction": 3.020752319440608e-08,
+        "absorbed_energy_per_cloud_fraction": 0.5607340980743123,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 3.020752319440608e-20,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.310419309767471e-09
+          ],
+          [
+            6.310419309767471e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.43920766910869363,
+            1.927424413154366e-05
+          ],
+          [
+            1.927424413154366e-05,
+            8.458334241242587e-10
+          ]
+        ],
+        "final_population": 8.458334241242587e-10,
+        "function_evaluations": 27038,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8131875192169405e-09,
+        "initial_survival": 0.43920766910869363,
+        "integrated_initial_decay_exponent": 1.1971806441172024e-08,
+        "mass_change": 5.607340980743122e-13,
+        "max_final_width_change_over_Gamma": 1.3169009877421424e-11,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 4.1764783926754056e-22,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.9643623640897205e-07,
+        "max_resonance_detuning_shift_over_Gamma": 1.407007402607361e-08,
+        "minimum_density_eigenvalue": 2.35849872154182e-22,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 5.183631301974856e-13,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 1.0367789862561589e-22,
+        "refined": true,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 2535,
+        "survival_change_from_prescribed": -4.1433839415017104e-08,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "matched_zero": {
+        "absorbed_angular_momentum_per_cloud_fraction": 3.170175412517384e-09,
+        "absorbed_energy_per_cloud_fraction": 0.560734056642777,
+        "absorption_changes_background": true,
+        "angular_momentum_change": 0.0,
+        "cloud_fraction": 0.0,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.310419903310761e-09
+          ],
+          [
+            6.310419903310761e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.43920771054347507,
+            1.927424594966427e-05
+          ],
+          [
+            1.927424594966427e-05,
+            8.458335039812742e-10
+          ]
+        ],
+        "final_population": 8.458335039812742e-10,
+        "function_evaluations": 15741,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8164559605732012e-09,
+        "initial_survival": 0.43920771054347507,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 0.0,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 0.0,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": 7.976171774603825e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 1.0417222640057844e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 3.503187061422658e-20,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1393,
+        "survival_change_from_prescribed": 9.420242363944453e-13,
+        "torque_feedback": true,
+        "variant": "matched"
+      },
+      "torque_only": {
+        "absorbed_angular_momentum_per_cloud_fraction": 3.170175619689182e-09,
+        "absorbed_energy_per_cloud_fraction": 0.5607340920177153,
+        "absorption_changes_background": false,
+        "angular_momentum_change": 3.170175619689182e-21,
+        "cloud_fraction": 1e-12,
+        "composite_parameter_correction_relative_to_torque_bound": 7.303728434824007e-06,
+        "density_imag": [
+          [
+            0.0,
+            -6.3104193949990766e-09
+          ],
+          [
+            6.3104193949990766e-09,
+            0.0
+          ]
+        ],
+        "density_real": [
+          [
+            0.43920767516485243,
+            1.9274244397104383e-05
+          ],
+          [
+            1.9274244397104383e-05,
+            8.458334358485936e-10
+          ]
+        ],
+        "final_population": 8.458334358485936e-10,
+        "function_evaluations": 15741,
+        "horizon_energy_cap_integral_bound_per_fc": 1.8164559594454175e-09,
+        "initial_survival": 0.43920767516485243,
+        "integrated_initial_decay_exponent": 0.0,
+        "mass_change": 5.607340920177153e-13,
+        "max_final_width_change_over_Gamma": 0.0,
+        "max_initial_growth_rate": 0.0,
+        "max_initial_width_change": 0.0,
+        "max_modal_norm": 1.0,
+        "max_relative_chirp_feedback": 1.9643623661129005e-07,
+        "max_resonance_detuning_shift_over_Gamma": 0.0,
+        "minimum_density_eigenvalue": 7.98198271840701e-20,
+        "minimum_pn_orbital_derivative_factor": 0.9989314695138802,
+        "norm_balance_residual": 1.0407230632836217e-12,
+        "point_id": "a0.400000_32+2_32+0",
+        "purity_residual": 3.5057526142584813e-20,
+        "refined": false,
+        "scope": "Leading tidal torque feedback on the circular 1.5PN orbit, with linear complex-frequency and isolated-flux response to absorption. Orbital background, mode profiles and tidal couplings are fixed at their initial values. BH absorption is an internal redistribution, not net central accretion.",
+        "steps": 1393,
+        "survival_change_from_prescribed": -3.5377680618342566e-08,
+        "torque_feedback": true,
+        "variant": "matched"
+      }
+    },
+    "survival_refinement_absolute": {
+      "hydrogenic": 2.0464185901403198e-12,
+      "matched": 6.994960166650799e-13
+    }
+  }
+]

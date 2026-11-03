@@ -1,13 +1,13 @@
 {
-  "content_id": "695efd2718a08f5a3c390aabc460d6bc98ceeeacc5300cd79ecc4a2db1f72205",
+  "content_id": "998cac20834c13ed72b889b7535c4bfd6162ee5054d18f9c67e8d70d633f570e",
   "files": {
     "LICENSE": {
       "bytes": 1066,
       "sha256": "423030eaf7e0475703f7612fb92e92183871c4405955c3d53c9222ee04006d89"
     },
     "README.md": {
-      "bytes": 4046,
-      "sha256": "140f173447c93d48c3e43b81b3449c1997cf387fc84af7a68f210fe1e5a3210b"
+      "bytes": 7463,
+      "sha256": "9ddf9a2b0097aa07114cb84962f729f23aac165d5ea8b11c6fa555a3719e67a0"
     },
     "calculations.py": {
       "bytes": 21056,
@@ -537,17 +537,45 @@
       "bytes": 8648,
       "sha256": "924333fcee661f57ea05083bb8424c67f319920fdc3e4855b09c287aca229faf"
     },
+    "data/orbital_feedback.json": {
+      "bytes": 40446,
+      "sha256": "7dd14aafc9ca1ccbe6e2645f5df1ed4fbc0ccad3d666ca82bde1494dd996b742"
+    },
+    "data/scalar_currents.json": {
+      "bytes": 12702,
+      "sha256": "e8af9bec7262c94c9709b72626671a2826f4bdc6d1d49d77f82929d8865434b7"
+    },
+    "data/scalar_torque.json": {
+      "bytes": 35277,
+      "sha256": "92cfa11a0ea8f29d5dbfc78e48f09fd0f3954d345c3952a2182172a26a237507"
+    },
     "data/settings.json": {
       "bytes": 660,
       "sha256": "c7646f5f1dff891dcda62dab4d4020666d67e7a5780ed97591a02fbd26983dd3"
+    },
+    "data/spectral_response.json": {
+      "bytes": 11656,
+      "sha256": "c523c6176681002564c9b8f930e1d29d251826a883176a923ecc89b9ac458dda"
+    },
+    "data/stress_overlaps.json": {
+      "bytes": 50060,
+      "sha256": "37033ddc9b45d02b81cb7b5c23ba1904ea3f99e46cc31662283778e794ab8a4c"
+    },
+    "feedback.py": {
+      "bytes": 26773,
+      "sha256": "f65eda328d38d365f1d38c608d30a201339cae35b87d6eebe2cab95c3ed73188"
+    },
+    "feedback_checks.py": {
+      "bytes": 7002,
+      "sha256": "992902be7a46c07aae69e8f35246f2dff4a3944823d8549f2e6fb64ba26a9d63"
     },
     "pyproject.toml": {
       "bytes": 393,
       "sha256": "62a716913d31ac7ef787251998b8c93585eb7a4cef7674b6a3cfa7e7c0473da1"
     },
     "reproduce.py": {
-      "bytes": 10436,
-      "sha256": "a18c0de24f1092df00886b16e021e17ef00c8f90104d84356fd35d60b279d459"
+      "bytes": 11401,
+      "sha256": "c13b744719543480a6ab9058e9e7d3042b5ce92a54b45fcb138b6691e73e4c8a"
     },
     "requirements-lock.txt": {
       "bytes": 153,
@@ -613,6 +641,10 @@
       "bytes": 3716,
       "sha256": "b652f2d130dd99a6bb1d231410c5f2e22210ba526404c7ada4c3b29cf5131c00"
     },
+    "src/boson_ep/orbital_feedback.py": {
+      "bytes": 8233,
+      "sha256": "47db774d5ece16b798f5ac6822fca0b671d88dafa360f380947c0983e98493d6"
+    },
     "src/boson_ep/projection.py": {
       "bytes": 1984,
       "sha256": "2eee6e7ba0038802788df0aca34cdaeb2edf9475f6bc76843f57d13b5db1a1e1"
@@ -624,6 +656,14 @@
     "src/boson_ep/relativity.py": {
       "bytes": 57936,
       "sha256": "0b54f0f73da335b84f23c0f212da0c37f32a57d9208de5593f2f2c9658526f47"
+    },
+    "src/boson_ep/scalar_balance.py": {
+      "bytes": 9024,
+      "sha256": "0d9b4ffa6e41ba8d19d183138794f4a4d1e4f9067eb6935d4bf5618d9a4dab08"
+    },
+    "src/boson_ep/scalar_torque.py": {
+      "bytes": 11492,
+      "sha256": "59204922a2349e7355b91791cb7741be8cb02acc6014c26bbddea0a8bc6b4ecc"
     },
     "src/boson_ep/spectrum.py": {
       "bytes": 3109,
@@ -685,9 +725,21 @@
       "bytes": 2199,
       "sha256": "5d54b23e4547824cce15af5e4d67a605499836d9ec647c423baba48e92be0a64"
     },
+    "tests/test_orbital_feedback.py": {
+      "bytes": 6878,
+      "sha256": "4137be6424ca51f572bbf2e06f02e692f7b65429dc6a0751bff94a1297704641"
+    },
     "tests/test_projection.py": {
       "bytes": 4288,
       "sha256": "bccc1adf5a99bcae967330272e804ed26a4ce3b6630309f692f2607c02f3efc4"
+    },
+    "tests/test_scalar_balance.py": {
+      "bytes": 6011,
+      "sha256": "33f259709dcfb2712f8098db8ab2d02497f94c7197814d2d920405c653739251"
+    },
+    "tests/test_scalar_torque.py": {
+      "bytes": 7003,
+      "sha256": "bc3bf1374e96bcc1a580433f73227df0d00817003e19b8c04f565b307a3e04fd"
     }
   },
   "schema": 1
